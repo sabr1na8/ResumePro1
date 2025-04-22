@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina's Travel Blog</title>
+    <link rel="stylesheet" href="css/scratch.css">
+
+    <style>
+        /* Adjust margin and padding for header and Tableau container */
+        h1 {
+            margin-bottom: 1px; /* Reducing margin below the header */
+            padding-bottom: 0; /* Removing any extra padding below the header */
+        }
+        .tableau-container {
+            margin-top: 0; /* Removing extra space above the Tableau graph */
+            padding-top: 0; /* Removing any extra padding above the Tableau graph */
+        }
+        
+    </style>
+
+</head>
+<body>
+   
+    <!-- Header Section -->
+    <div class="header">
+        <header>
+            <h1>Sabrina's Travel Blog</h1>
+            <nav class="link-box">
+                <a href="index.html">Resume Page</a>
+                <a href="webapp.html">Dad Joke Generator</a>
+            </nav>
+        </header>
+    </div>
+
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h1>Top 3 Favorite Places</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/w38Y8SNdyPU?si=Pls9FdjSBLjNuVNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- Ordered List of Places -->
+        <ol>
+            <li>London, England
+                <ul>
+                    <li>Tower of London</li>
+                    <li>Westminster Abbey</li>   
+                    <li>Old Spitalfields Market</li>
+                    <li>St. Paul's Cathedral</li>
+                </ul>
+            </li>
+            <li>Alaska, US
+                <ul>
+                    <li>Icy Strait</li>
+                    <li>Skagway</li>   
+                    <li>Ketchikan</li>
+                    <li>Juneau</li>
+                </ul>
+            </li>
+            <li>Edinburgh, Scotland
+                <ul>
+                    <li>Edinburgh Castle</li>
+                    <li>The Potter Trail</li>   
+                    <li>The Royal Mile</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+               <!-- Section for images (Collage style) -->
+    <div class="image-catalog">
+        <div class="catalog-item">
+            <h2>Edinburgh, Scotland</h2>
+            <img src="assets/img/Edinbrugh-Street.jpg" alt="Edinburgh Street" class="catalog-image">
+        </div>
+        <div class="catalog-item">
+            <h2>Edinburgh, Scotland</h2>
+            <img src="assets/img/Edinburgh-Grave.jpg" alt="Edinburgh Grave" class="catalog-image">
+        </div>
+        <div class="catalog-item">
+            <h2>London, England</h2>
+            <img src="assets/img/BigBenFar.jpg" alt="Big Ben Far" class="catalog-image">
+        </div>
+        <div class="catalog-item">
+            <h2>London, England</h2>
+            <img src="assets/img/BigBenClose.jpg" alt="Big Ben Close" class="catalog-image">
+        </div>
+        <div class="catalog-item">
+            <h2>London, England</h2>
+            <img src="assets/img/RedTellephoneBooth.jpg" alt="Red Telephone Booth" class="catalog-image">
+        </div>
+        <div class="catalog-item">
+            <h2>Alaska, US</h2>
+            <img src="assets/img/AlaskaTrain.jpg" alt="Alaska Train" class="catalog-image">
+        </div>
+        <div class="catalog-item">
+            <h2>Alaska, US</h2>
+            <img src="assets/img/AlaskaMnt.jpg" alt="Alaska Mountain" class="catalog-image">
+        </div>
+        <div class="catalog-item">
+            <h2>Alaska, US</h2>
+            <img src="assets/img/AlaskaWaterfall.JPG" alt="Alaska Waterfall" class="catalog-image">
+        </div>
+    </div>
+    
+    <!-- Footer Section (Optional) -->
+    <div class="footer">
+        <p>Thank you for visiting my travel blog!</p>
+    </div>
+
+    <div class="tableau-container">
+        <h1>Travel Around the World -- Find Your Airbnb Host</h1>
+        
+        <!-- Tableau Embed Code -->
+        <div class='tableauPlaceholder' id='viz1745343778662' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Travel Around the World -- Find Your Airbnb Host' src='https://public.tableau.com/static/images/3B/3B9CRYM6P/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https://public.tableau.com/' />
+                <param name='embed_code_version' value='3' />
+                <param name='path' value='shared/3B9CRYM6P' />
+                <param name='toolbar' value='no' />
+                <param name='static_image' value='https://public.tableau.com/static/images/3B/3B9CRYM6P/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+
+        <!-- JavaScript to Load Tableau Visualization -->
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1745343778662');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '1100px';
+            vizElement.style.height = '850px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        
+    </div>
+    
+   <!-- The "Back to Top" Link (anchor link) -->
+   <a href="#top" id="back-to-top">Back to Top</a>
+
+   <!-- The "top" anchor point at the top of the page -->
+   <div id="top"></div>
+
+</body>
+</html>
